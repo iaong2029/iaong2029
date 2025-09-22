@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+      
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+      <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/0QYtfYGZ/container-display-flex-Makes-the-container-a-flex-container-justify-content-space-around-Dist.png">
+        <title>Minh's Top 3</title>
+    <style>
+            *{
+      text-decoration: none;
+       }
+
+
+    body{
+      padding: 0px;
+      margin: 0px;
+      background-size: 100%;
+      background-position: right center;
+      background-repeat: no-repeat;
+      height: 1100px;
+      background-color: rgb(231,178,202);
+    }
+
+
+    .navbar{
+      background-color: rgb(231,178,202);
+      
+      
+    }
+    .navdiv{
+      position: relative;
+      height: 140px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      overflow: visible;
+    }
+    .navdiv li {
+      
+      border: black 1px;
+      list-style: none;
+      display: inline-block;
+      
+    }
+
+    .logo {
+      height: 135px;
+      padding-left: 25px;
+      position: relative;
+      transform: rotate(5deg);
+    }
+
+     .navdiv li a{
+      font-family: Lato, sans-serif;
+      color: #000000;
+      font-size: 35px;
+      border: 2px;
+      border-color: black;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-weight: bolder;
+    }
+
+    .container {
+      position: relative;
+      top: 150px;
+    display: flex; /* Makes the container a flex container */
+    justify-content: space-around; /* Distributes space around items */
+    align-items: flex-start; /* Aligns items to the start of the cross-axis */
+    width: 80%; /* Example width */
+    margin: 20px auto; /* Centers the container and adds margin */
+    padding: 10px;
+    
+}
+
+
+
+.box {
+    width: 30%; 
+    height: 700px; 
+    background-color: rgb(255, 200, 217) ;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    box-sizing: border-box; 
+    transition: 0.4s ease;
+}
+
+.box:hover{
+  transform: scale(1.2);
+}
+.container h1{
+  font-family: Poppins;
+  color: #000000;
+}
+
+.container img{
+  border-radius: 20px;
+}
+
+
+        </style>
+    </head>
+
+<body>
+  <nav class="navbar">
+    <div class="navdiv">
+      <div class="logo">
+        <a href="#"><img src="https://i.postimg.cc/0QYtfYGZ/container-display-flex-Makes-the-container-a-flex-container-justify-content-space-around-Dist.png" alt="Logo" height=250 width=250></a>
+      </div>
+      <ul>
+        <li><a href="index.html" > Home </a></li>
+        <li><a href="about.html"> About Me </a></li>
+        <li><a href="shows.html"> Shows </a></li>
+        <li><a href="games.html"> Games </a></li>
+        <li><a href="artists.html"> Artists</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+        <div class="box">
+
+          <h1>Never Have I Ever</h1>
+          <img src="https://m.media-amazon.com/images/M/MV5BNzdhOGVjMTQtOTQ0Yi00ZWNjLTk2MjMtMWMzODczNWNiNmM3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt= "nhie "width=320px height= 470px>
+
+        </div>
+
+        <div class="box">
+                    <h1>The Summer I Turned Pretty</h1>
+          <img src="https://m.media-amazon.com/images/M/MV5BYjY0OWZkYjEtYzBmZC00NThhLWFjOGYtM2Q5NDA5MWJjZGVkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt= "tsitp "width=320px height= 470px>
+        </div>
+
+        <div class="box">
+        <h1>Avatar</h1>
+        <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186109_b_v8_aa.jpg" alt= "tsitp "width=320px height= 470px>
+        </div>
+    </div>
+
+  
+    </body>
+</html>
